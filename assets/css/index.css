@@ -2,19 +2,29 @@
 
 * {
   font-family: Poppins;
+  box-sizing: border-box;
 }
+
+#mainNav {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .navbar-brand img {
-  max-width: 40%;
-  padding-left: 15%;
+  max-width: 20%;
 }
 
 #navbarNav {
   justify-content: end;
-  padding-right: 5%;
 }
 
 .navbar-nav {
   align-items: flex-end;
+}
+
+.btn:hover {
+background-color: #4A5B61;
+color: aliceblue;
 }
 
 .jumbotron {
@@ -23,15 +33,42 @@
 .mastHead {
   padding: 48px 30px;
 }
+#workCards {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
 #imgCard {
   border-radius: 20px;
 }
 
+#imgCardDiv{
+  transition: all 1s ease-out;
+  transform: scale(100%);
+}
+
+#imgCardDiv:hover {
+  transform: translateY(-20px) ;
+  transform: scale(104%);
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.4s;
+  
+}
+
 .infoSection {
-  background-color: #3b4249;
-  border-radius: 20px;
-  margin: 30px 65px;
+  background-color: #4A5B61;
+  /* border-radius: 20px; */
+  /* margin: 30px 250px; */
+}
+
+
+.text-secondary {
+  color: #899096 !important;
+}
+
+.link-fancy {
+  color: white;
 }
 
 .contact-section {
@@ -41,4 +78,19 @@
 .social {
   display: flex;
   justify-content: space-around;
+}
+
+a i {
+  color: #4A5B61;
+}
+
+.footer {
+font-size: small;
+}
+
+@media (max-width: 990px) {
+  #imgCardDiv
+   {
+  padding-top: 50px;
+  }
 }
