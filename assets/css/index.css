@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: Poppins;
+}
+.navbar-brand img {
+  max-width: 40%;
+  padding-left: 15%;
+}
+
+#navbarNav {
+  justify-content: end;
+  padding-right: 5%;
+}
+
+.navbar-nav {
+  align-items: flex-end;
+}
+
+.jumbotron {
+  padding: 48px 30%;
+}
+.mastHead {
+  padding: 48px 30px;
+}
+
+#imgCard {
+  border-radius: 20px;
+}
+
+.infoSection {
+  background-color: #3b4249;
+  border-radius: 20px;
+  margin: 30px 65px;
+}
+
+.contact-section {
+  padding: 2% 0%;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
