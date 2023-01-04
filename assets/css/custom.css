@@ -3,6 +3,7 @@
 * {
   font-family: Poppins;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 #mainNav {
@@ -20,6 +21,10 @@
 
 .navbar-nav {
   align-items: flex-end;
+}
+
+.avatar {
+  max-width: 15%;
 }
 
 .btn:hover {
