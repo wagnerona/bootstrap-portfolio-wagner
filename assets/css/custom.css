@@ -27,6 +27,8 @@
   max-width: 15%;
 }
 
+
+
 .card-info {
   text-align: center;
   position: relative;
@@ -106,5 +108,20 @@ a i {
 @media (max-width: 990px) {
   #imgCardDiv {
     padding-top: 50px;
+  }
+
+  .mastHead {
+    padding: 0px;
+  }
+
+  .jumbotron {
+    padding: 0px 30px;
+  }
+
+  .display-4 {
+    font-size: 200% !important;
+  }
+  .navbar-brand {
+    width: 70%;
   }
 }
