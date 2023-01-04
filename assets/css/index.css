@@ -23,8 +23,8 @@
 }
 
 .btn:hover {
-background-color: #4A5B61;
-color: aliceblue;
+  background-color: #4a5b61;
+  color: aliceblue;
 }
 
 .jumbotron {
@@ -42,26 +42,24 @@ color: aliceblue;
   border-radius: 20px;
 }
 
-#imgCardDiv{
+#imgCardDiv {
   transition: all 1s ease-out;
   transform: scale(100%);
 }
 
 #imgCardDiv:hover {
-  transform: translateY(-20px) ;
+  transform: translateY(-20px);
   transform: scale(104%);
   opacity: 0.5;
   cursor: pointer;
   transition: 0.4s;
-  
 }
 
 .infoSection {
-  background-color: #4A5B61;
+  background-color: #4a5b61;
   /* border-radius: 20px; */
   /* margin: 30px 250px; */
 }
-
 
 .text-secondary {
   color: #899096 !important;
@@ -69,6 +67,10 @@ color: aliceblue;
 
 .link-fancy {
   color: white;
+}
+
+.skillSection {
+  padding: 2%;
 }
 
 .contact-section {
@@ -81,16 +83,15 @@ color: aliceblue;
 }
 
 a i {
-  color: #4A5B61;
+  color: #4a5b61;
 }
 
 .footer {
-font-size: small;
+  font-size: small;
 }
 
 @media (max-width: 990px) {
-  #imgCardDiv
-   {
-  padding-top: 50px;
+  #imgCardDiv {
+    padding-top: 50px;
   }
 }
